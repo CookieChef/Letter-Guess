@@ -1,7 +1,12 @@
 .jumbotron{
 text-align: center;
+font-family: 'Rajdhani', sans-serif;
+font-size: 200%;
 }
 
 .card {
     text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 5px;
+    font-size: 150%;
 }
