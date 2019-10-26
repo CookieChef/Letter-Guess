@@ -20,7 +20,8 @@ The user can reset the game by quitting.
 
             If the user correctly guessed before the count decreases to 0 the win count is updated by one. If not, then the lose count will be updated by 1.
     
-    ## Link to see the app!
-    [Play the App] (https://cookiechef.github.io/Letter-Guess/.)
-    [GitHub Repository (https://github.com/CookieChef/Letter-Guess.git)
+## Link to see the app!
+
+[Play the App] (https://cookiechef.github.io/Letter-Guess/.)
+[GitHub Repository (https://github.com/CookieChef/Letter-Guess.git)
 
