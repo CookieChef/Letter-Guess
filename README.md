@@ -1,1 +1,3 @@
-# Game
+```bash
+# Psychic Game!
+```
