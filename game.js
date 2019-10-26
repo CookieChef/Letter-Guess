@@ -27,6 +27,11 @@ document.onkeydown = () => {
     }
 
 reset = () => {
+    document.querySelector("#guessesLeft").innerHTML = "You have " + guesses + " guesses left!";
+    document.querySelector("#wins").innerHTML = "Wins! " + win;
+    document.querySelector("#losses").innerHTML = "Losses! " + lose;
+    document.querySelector("#userGuesses").innerHTML = "You have already guessed: " + userGuesses.join(", ");
+    document.querySelector("#startingMssg").innerHTM = "Beggin Guessing!!"
     guesses=10;
     userGuesses=[];
     computerChoice();
@@ -56,6 +61,5 @@ const computerChoice = () => {
 const updateUserGuesses = () => {
     document.querySelector("#userGuesses").innerHTML = "You have already guessed: " + userGuesses.join(", ");
 }
-
 
 
