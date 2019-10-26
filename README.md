@@ -8,17 +8,16 @@ The user can reset the game by quitting.
 
 ## JavaScrip Logic 
 
-    There are two main functions that run the game. One is the "reset" or start game function, the other is the "quit" game function, which resets the game and the values of win and lose to 0. The main functions call on other methods that contain the logic of the game split into different functionalities. 
+- There are two main functions that run the game. One is the "reset" or start game function, the other is the "quit" game function, which resets the game and the values of win and lose to 0. The main functions call on other methods that contain the logic of the game split into different functionalities. 
 
-        Guesses left - updates the html element to display how many guesses the user has left depending the onkeydown event.
+    * Guesses left - updates the html element to display how many guesses the user has left depending the onkeydown event.
 
-        ComputerChoice - selects a random element of the arrays that contains the choices available and makes that the variable the user then has to guess.
+    * ComputerChoice - selects a random element of the arrays that contains the choices available and makes that the variable the user then has to guess.
 
-        UpdateUserGuesses - updates the html element to display the guesses or "letters" the user has alredy attempted. 
+    * UpdateUserGuesses - updates the html element to display the guesses or "letters" the user has alredy attempted. 
 
-        Onkeydown waits and listens for the user input, which in this case is the pressing of a key. This creates a decrement in the amount of guesses the user has and pushes the letter to an array which is then displayed to the user to let them know which letters they have already pressed. 
-
-            If the user correctly guessed before the count decreases to 0 the win count is updated by one. If not, then the lose count will be updated by 1.
+    * Onkeydown waits and listens for the user input, which in this case is the pressing of a key. This creates a decrement in the amount of guesses the user has and pushes the letter to an array which is then displayed to the user to let them know which letters they have already pressed. 
+    If the user correctly guessed before the count decreases to 0 the win count is updated by one. If not, then the lose count will be updated by 1.
     
 ## Links to see the app!
 
