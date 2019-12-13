@@ -20,10 +20,12 @@ There are two main functions that run the game. One is the "reset" or start game
 
     * Onkeydown waits and listens for the user input, which in this case is the pressing of a key. This creates a decrement in the amount of guesses the user has and pushes the letter to an array which is then displayed to the user to let them know which letters they have already pressed. 
     If the user correctly guessed before the count decreases to 0 the win count is updated by one. If not, then the lose count will be updated by 1.
-    
+
 ## Links to see the app!
 
 [Play the App] (https://cookiechef.github.io/Letter-Guess/.)
 
 [GitHub Repository (https://github.com/CookieChef/Letter-Guess.git)
+
+## Thanks to: 
 
