@@ -6,6 +6,8 @@ This is a basic JavaScript game that lets the user try guess a letter of the alp
 
 The user can reset the game by quitting.
 
+If the user gives up they can look up the console log for the answer they need to guess.
+
 ## JavaScrip Logic 
 
 There are two main functions that run the game. One is the "reset" or start game function, the other is the "quit" game function, which resets the game and the values of win and lose to 0. The main functions call on other methods that contain the logic of the game split into different functionalities. 
