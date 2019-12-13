@@ -28,4 +28,5 @@ There are two main functions that run the game. One is the "reset" or start game
 [GitHub Repository (https://github.com/CookieChef/Letter-Guess.git)
 
 ## Thanks to: 
+https://coolsymbol.com/ for the symbols used in the styling of the buttons. 
 
