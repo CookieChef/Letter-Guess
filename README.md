@@ -30,3 +30,5 @@ There are two main functions that run the game. One is the "reset" or start game
 ## Thanks to: 
 https://coolsymbol.com/ for the symbols used in the styling of the buttons. 
 
+https://getbootstrap.com/ for the bootstrap editing used 
+
