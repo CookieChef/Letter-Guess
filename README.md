@@ -32,3 +32,5 @@ https://coolsymbol.com/ for the symbols used in the styling of the buttons.
 
 https://getbootstrap.com/ for the bootstrap editing used 
 
+https://fonts.google.com/ for the font used
+
